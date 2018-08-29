@@ -20,6 +20,7 @@ end
 
 def find_the_cheese(snack)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snack.collect do |each|
     if snack&cheese_types
+      return snack&cheese_types
+    else return nil
 end
