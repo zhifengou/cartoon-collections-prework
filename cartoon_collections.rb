@@ -23,6 +23,6 @@ def find_the_cheese(snack)
     if snack&cheese_types
       return (snack&cheese_types).join
     elsif (snack&cheese_types).empty?
-      return nil
+      nil
 end
 end
