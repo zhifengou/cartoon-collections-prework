@@ -23,6 +23,6 @@ def find_the_cheese(snack)
     if snack&cheese_types
       return (snack&cheese_types).join
     else
-      nil
+      puts nil
 end
 end
